@@ -1,9 +1,13 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.sql.SQLOutput;
 
 /**
- *
+ * Datatype examples
+ * @author Enn Ennuste
  */
 public class Datatype {
+
 
     //Primitivedatatypes
     //numbers
@@ -54,8 +58,13 @@ public class Datatype {
         int k = 0;
         Integer y = null;
 
-
         System.out.println(k);
+
+        k = 10;
+        System.out.println(k);
+
+
+
         System.out.println(y);
 
 
