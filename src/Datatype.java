@@ -13,7 +13,7 @@ public class Datatype {
     //numbers
     int a = 1;
     byte byteNumber = 120;
-    long longNumber = 54523523;
+    long longNumber = 5452352363636346L;
     short shortNumber = -3000;
     float decimalNumber = 2.45f;
     double doubleDecimalNumber = 3.456d;
@@ -62,9 +62,6 @@ public class Datatype {
 
         k = 10;
         System.out.println(k);
-
-
-
         System.out.println(y);
 
 

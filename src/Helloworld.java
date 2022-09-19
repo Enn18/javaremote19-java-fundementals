@@ -1,3 +1,5 @@
+import java.io.CharArrayReader;
+
 /**
  * The first hello world program
  * @author Ennuste Enn
@@ -7,5 +9,6 @@ public class Helloworld {
         System.out.println("Hellow, World!");
 
         System.out.println(Datatype.FOOD);
+
     }
 }
