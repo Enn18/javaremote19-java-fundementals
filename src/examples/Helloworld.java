@@ -1,4 +1,4 @@
-import java.io.CharArrayReader;
+package examples;
 
 /**
  * The first hello world program

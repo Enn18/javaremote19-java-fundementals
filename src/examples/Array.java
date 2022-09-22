@@ -1,3 +1,5 @@
+package examples;
+
 /**
  * Examples of Arrays
  *
@@ -65,5 +67,58 @@ public class Array {
 
         //homework4
         //To find smallest in the array (b)
+
+        //Multi-dimensional array:
+        int[][] array2d = new int [3][3];  // also you can leave it empty if you dont know how many number there are
+        //Row-1
+        array2d[0][0] = 1;           // 1   0   1
+        array2d[0][1] = 0;           // 2   10   9
+        array2d[0][2]= 1;            // 4   9    8
+
+        //row-2
+        array2d[1][0] = 2;
+        array2d[1][1] = 10;
+        array2d[1][2] = 9;
+
+        //Row-3
+        array2d[2][0] = 4;
+        array2d[2][1] = 9;
+        array2d[2][2] = 8;
+
+        int [][] array2dver2 = {{1, 0, 1}, {2, 10, 9}, {4, 9, 8}};
+
+        for(int x = 0; x < 3; x++ ) {
+            for(int y = 0; y < 3; y++) {
+                System.out.print(array2d[x][y] +  " ");
+            }
+            System.out.println();
+        }
+
+    //3D array = 1D + 2D array
+    // 1D => number of tables
+    // 2d array => array with rows and columns
+    int[][][] array3d = new int[3][3][3];// [ how many sets of 2d array u want] [how many rows of each 2darray] [number of columns 2d array]
+    //TABLE- 1
+    //Row-1
+    array3d[0][0][0] = 1;
+    array3d[0][0][1] = 0;
+    array3d[0][0][2] = 1;
+
+
+    int[][][] array3dVer2 = {
+            {{1, 0, 1}, {1, 8, 0}, {2, 5, 7}},
+            {{9, 8, 7}, {5, 8, 9}, {3, 5, 0}},
+            {{5, 6, 2}, {4, 5, 7}, {2, 6, 8}},
+            };
+
+    for(int x = 0; x < 3; x++) {
+        for(int y = 0; y < 3; y++) {
+        for(int z  = 0; z < 3; z++) {
+            System.out.print(array3dVer2[x][y][z]);
+        }
+            System.out.println();
+          }
+        System.out.println("\n");
     }
+  }
 }

@@ -1,6 +1,4 @@
-import org.w3c.dom.ls.LSOutput;
-
-import java.sql.SQLOutput;
+package examples;
 
 /**
  * Datatype examples
