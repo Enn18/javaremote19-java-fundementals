@@ -14,7 +14,7 @@ public class Homework4 {
              sum = sum + num; // this means sum sum = 0+1, then sum= 1+7, sum = 8+3, sum= 11 +10, sum =21+9
          }
          int average = sum / Array.length;    // here the 30 is devided with how many numbers are in array.
-        System.out.println("The average is" + average);
+        System.out.println("The average is  " + average);
 
 
 
