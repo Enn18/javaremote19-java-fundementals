@@ -39,5 +39,37 @@ public class StatementExercise {
         } else if (test == null) {
             System.out.println("The string cannot be null");
         }
+
+        //Switch
+        // Write a Java program to match the given alphabet
+        char test2 = 'K';
+
+        switch (test2) {
+            case'A':
+                System.out.println("The given alphabet is A");
+                break;
+            case'B' :
+                System.out.println("The given alphabet is B");
+                break;
+            case 'K':
+                System.out.println("The given alphabet is K");
+                break;
+            default:
+                System.out.println("The given alphabet is not found");
+        }
+
+        //Write a Java program to print all the odd numbers from 1 to while while or for loop( if inside for
+         // for example
+        int l = 1;
+
+        for(; l <= 50; l++) {
+            if (l % 2 !=0  ) {
+                System.out.println(l + " is an odd number");
+            }
+        }
+
     }
+
+
+
 }
